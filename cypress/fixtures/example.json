@@ -1,0 +1,12 @@
+{
+  "username": "test30",
+  "email": "test20@email.com",
+  "password": "test2020",
+  "title": "Testing",
+  "description": "Testing book",
+  "textbody": "novelpoemtextbook",
+  "tags": "abc",
+  "invalidtitle": " ",
+  "invaliddescription": " ",
+  "invalidtextbody": " "
+}

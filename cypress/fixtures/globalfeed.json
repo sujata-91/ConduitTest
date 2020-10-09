@@ -1,0 +1,34 @@
+{
+    "articles": [
+        {
+            "title": "temp file",
+            "body": "Temp body",
+            "tagList": [],
+            "description": "Describe test file",
+            "author": {
+                "username": "Old Tester",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 0
+        },
+        {
+            "title": "temp file2",
+            "body": "Temp body2",
+            "tagList": [],
+            "description": "Describe test file2",
+            "author": {
+                "username": "Old Tester2",
+                "bio": null,
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            },
+            "favorited": false,
+            "favoritesCount": 0
+        }
+
+    ],
+        "articlesCount": 20
+}
