@@ -2,14 +2,14 @@
     "baseUrl": "http://localhost:4200",
     "env": {
         "user": {
-            "username": "testingki",
+            "username": "testingty",
             "email": "sptestki@email.com",
             "password": "sptesting30",
             "wrongemail": "wrong@email.com",
             "wrongpwd":"invalidpw"
         }
-    },
-    "failOnNonZeroExit" : false,
-    "failOnStatusCode": false
+    }
+   
+   
     
 }

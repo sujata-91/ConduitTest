@@ -15,7 +15,7 @@ describe('Change Username', function () {
 
         cy.url().should('include', '/profile')
 
-       // cy.get('.article-preview', { timeout: 10000 }).children().should('be.visible')
+        // cy.get('.article-preview', { timeout: 10000 }).children().should('be.visible')
 
     })
 

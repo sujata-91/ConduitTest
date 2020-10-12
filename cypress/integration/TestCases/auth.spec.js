@@ -9,4 +9,6 @@ describe('New User', () => {
         cy.get('.feed-toggle>ul>li>a.nav-link').should('have.class', 'active')
        
     })
+
+    
 })

@@ -19,18 +19,16 @@ describe('Login', function () {
     it('Sign In', function () {
         cy.LoginIn()
         cy.location('pathname').should('equal', '/')
-        cy.contains('a.nav-link', 'Your Feed').should('have.class', 'active')
-
+        cy.get('div.feed-toggle>ul').children().should('be.visible')
     })
 
-    it.skip('Sign In with valid input', function () {
+    it('Sign In with valid input', function () {
         cy.contains('a.nav-link', 'Sign in').click()
         cy.contains('h1', 'Sign in')
 
         const user = Cypress.env('user')
 
         cy.get('input[placeholder=Email]').clear().type(user.email)
-
         cy.get('input[placeholder=Password]').clear().type(user.password)
 
         cy.get('.btn').click()

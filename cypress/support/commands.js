@@ -35,7 +35,6 @@ Cypress.Commands.add("Signin", (email, password) => {
 })
 
 Cypress.Commands.add("LoginIn", () => {
-    
     cy.contains('a.nav-link', 'Sign in').click()
     cy.contains('h1', 'Sign in')
     cy.get('input[placeholder=Email]').clear().type('sptestki@email.com')

@@ -5,6 +5,7 @@ describe('New Article Page', function () {
         cy.fixture('example').then(function (data) {
             this.data = data
         })
+
     })
 
     it('Creates new article page', function () {

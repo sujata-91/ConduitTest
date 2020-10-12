@@ -6,8 +6,8 @@ describe('New User', () => {
     })
 
     it('Sign Up New User', () => {
-        const username = 'test123fred'
-        const email = 'sptest123redecs@email.com'
+        const username = 'October'
+        const email = 'Oct@email.com'
         const password = 'spteststep'
 
         cy.contains('a.nav-link', 'Sign up').click()
@@ -22,7 +22,7 @@ describe('New User', () => {
         //cy.location('pathname').should('equal', '/')
         cy.contains('a.nav-link', username).should('be.visible')
         
-        cy.get('div.feed-toggle>ul>li>a.nav-link').should('have.class','active')
+        cy.get('div.feed-toggle>ul>li>a.nav-link').should('eq','Your Feed')
         
 
     })

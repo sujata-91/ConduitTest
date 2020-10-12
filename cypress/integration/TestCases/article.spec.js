@@ -5,10 +5,6 @@ describe('New Article Page', function () {
     beforeEach(function () {
 
         cy.clearLocalStorage()
-        // cy.fixture('example').then(function (data) {
-        //     this.data = data
-        // })
-
     })
     const articles = new article()
     it('Creates new article page', function () {
@@ -28,7 +24,7 @@ describe('New Article Page', function () {
         articles.text('Description area')
         articles.tags('tag enter')
         articles.submit()
-        cy.url().should('include', 'article')
+        cy.url().should('match', /article/)
     })
 
 })
